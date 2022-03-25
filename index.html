@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav">My TicTac Toe Game</div>
+
+    <div class="myGameContainer">
+      <div class="container">
+        <div class="line"></div>
+        <div class="box" style="border-top: 0; border-left: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-top: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-top: 0; border-left: 0; border-right: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-left: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-left: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-right: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-left: 0; border-bottom: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-bottom: 0">
+          <span class="boxtext"></span>
+        </div>
+        <div class="box" style="border-bottom: 0; border-right: 0">
+          <span class="boxtext"></span>
+        </div>
+      </div>
+
+      <div class="game-info">
+        <h1>Welcome to my TicTac Toe Game</h1>
+        <div>
+          <span class="info"> Turn for x </span>
+          <div class="img-box">
+            <img src="excited.gif" alt="" />
+          </div>
+          <div class="restart">
+            <button id="reset">Restart the game</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
